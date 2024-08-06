@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contct page B</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="shortcut icon" type="x-icon" href="logo6.png">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?
+	family=Roboto:wght@400;700&display=swap"
+      rel="stylesheets"
+    />
+
+    <style>
+      #navbar ul li a{
+      color: #000000;
+      text-shadow: 0px 0px 0px rgb(181, 20, 58);
+      font-size: 16px;
+      }
+      #navbar ul li{
+      margin-left: 50px;
+      }
+      header{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #fff0f5;
+      height: 200px;
+      position: fixed;
+      top: 0;
+      z-index: 9999;
+      }
+      h2{
+        margin-top: 180px;
+        color: #000000;
+      }
+      h6{
+        color: #000000;
+      }
+      @media screen and (max-width: 320px) {
+        .contact-section {
+          display: grid;
+        }
+      }
+      @media screen and (max-width: 480px) {
+        .contact-section {
+          display: grid;
+        }
+      }
+      @media screen and (max-width: 768px) {
+        .contact-section {
+          display: grid;
+        }
+      }
+      @media screen and (max-width: 1280px) {
+        .contact-section {
+          display: grid;
+        }
+      }
+      * {
+        font-family: "Roboto", sans-serif;
+      }
+      body {
+        background-color: #fff0f5;
+      }
+      #enquiries {
+        border: 0;
+        box-shadow: 0 12px 5px 7pxs;
+        color: #a7a7a7;
+        background-color: #fff0f5;
+      }
+      .form-1 {
+        width: 50rem;
+        background: radial-gradient(
+          circle farthest-corner at bottom left,
+          #c2aaae 0%,
+          #ffbac4 40%,
+          #ff90a1 20%
+        );
+        background: -webkit-radial-gradient(
+          circle farthest-corner at bottom left,
+          #c2aaae 0%,
+          #ffb6c1 40%,
+          #ffb4bf 20%
+        );
+        background: -moz-radial-gradient(
+          circle farthest-corner at bottom left,
+          #c2aaae 0%,
+          #ffb6c1 40%,
+          #ffa9b6 20%
+        );
+        margin-left: 1rem;
+        border-radius: 50px;
+        border-bottom-right-radius: 0;
+      }
+      #credentials {
+        background-color: #ffb7c2;
+        opacity: 0.7;
+        border: 2px solid white;
+      }
+      .form-control:focus {
+        box-shadow: 2px 0px 7px brown;
+      }
+      .address-1 {
+        width: 50rem;
+        height: 30rem;
+
+        background: rgb(194, 170, 174);
+        background: linear-gradient(
+          90deg,
+          #c2aaae 0%,
+          rgb(255, 138, 155) 31%,
+          rgba(255, 144, 161, 1) 76%
+        );
+        margin-right: 1rem;
+        margin-left: -1rem;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-top-left-radius: 70px;
+        border-bottom-left-radius: 18px;
+      }
+      #address {
+        width: 35rem;
+        border-top-left-radius: 65px;
+        border-bottom-left-radius: 65px;
+        background-color: #ffb7c2;
+        opacity: 0.5;
+        opacity: 0.8;
+        border: 0px;
+        grid-area: address;
+      }
+      #address-body {
+        color: #ffffff;
+        font-family: cursive;
+        padding-left: 2rem;
+        padding-top: 1rem;
+        border: 0px;
+      }
+      iframe {
+        border-radius: 45px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        box-shadow: 2px 0px 7px rgb(255, 128, 128);
+      }
+      button {
+        background-color: #ffb7c2;
+        color: rgb(213, 118, 118);
+        border-radius: 5px;
+        border-color: #ffcbd4;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ====================================NAVBAR===========================================-->
+    <header>
+      <nav class="navbar navbar-expand-md">
+        <div class="container-xxl">
+                <img src="logo6.png" alt="" width="200" height="200">
+                <!-- toggle button for mobile nav -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                </button>
+        <!-- navbar links -->
+          <div id="navbar">
+          <div class="collapse navbar-collapse justify-content-end align-center" 
+          id="main-nav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="hp4.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="AboutUs.html">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="MENUUU.html">OUR MENU</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="340projectgalllery.html">GALLERY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="new review.html">REVIEWS</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn" href="contact Us.htm"> <i class="bi bi-telephone-fill"></i> <u> CONTACT US</u></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+        </div>
+    </nav>
+    </header>
+    <!-- =================== FOR ALL ENQUIRIES SECTION ==================================-->
+
+    <div class="card text-center" id="enquiries">
+      <div class="card-body">
+        <h2 class="card-title">For all enquiries</h2>
+        <h6 class="card-text">
+          <i
+            >Please reach out to us through our contact details bellow. <br />
+            we'd love to hear from you !</i
+          >
+          <br />
+        </h6>
+      </div>
+    </div>
+    <br />
+
+    <!--============================ CONTACT SECTION =================================-->
+
+    <div class="d-flex justify-content-between;" style="height: 30rem">
+      <div class="card form-1">
+        <div
+          class="card-body body1"
+          style="color: rgb(255, 255, 255); padding: 3rem; width: 27rem"
+        >
+          <h5
+            class="card-title"
+            style="text-shadow: 2px 0px 7px rgba(255, 0, 0, 0.6)"
+          >
+            Get in touch!
+          </h5>
+          <hr style="width: 35px; height: 5px; color: rgb(241, 29, 29)" />
+
+          <!------------ form--------->
+
+          <form id="myForm" method="post">
+            <input
+              id="credentials"
+              class="form-control"
+              type="text"
+              required="true"
+              placeholder="Enter your name"
+              aria-label="default input example"
+            />
+
+            <br />
+            <input
+              id="credentials"
+              class="form-control"
+              required
+              type="email"
+              placeholder="Enter your email address"
+              aria-label="default input example"
+            />
+            <br />
+            <textarea
+              id="credentials"
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              placeholder="Enter your message"
+              rows="5"
+              required
+            ></textarea>
+            <br />
+
+            <div
+              class="form-check"
+              style="margin-left: 0.4rem; font-size: 12px"
+            >
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="defaultCheck1"
+                style="background-color: #ff90a1; box-shadow: none"
+              />
+              <label class="form-check-label">
+                I would like to get offers and news from sweet delights
+              </label>
+            </div>
+
+            <button id="send" type="button">
+              <b>Submit</b>
+            </button>
+            <p id="thankYouMsg"></p>
+          </form>
+
+          <script>
+            document
+              .getElementById("send")
+              .addEventListener("click", function (event) {
+                event.preventDefault();
+                alert("Thank you!");
+                // Add this code to refresh the form
+                document.getElementById("myForm").reset();
+              });
+          </script>
+        </div>
+      </div>
+
+      <!--=============================== ADDRESS SECTION =========================================-->
+
+      <div class="card address-1">
+        <div class="card-body body2" style="margin-left: -10rem">
+          <div
+            class="d-flex justify-content-between;"
+            style="height: 24rem; margin-top: 2rem; width: 50rem"
+          >
+            <div class="card" id="address">
+              <div class="card-body">
+                <div
+                  class="u-container-layout u-valign-top u-container-layout-2"
+                  id="address-body"
+                >
+                  <h5>Address</h5>
+                  <p>
+                    Yakın Doğu Üniversitesi <br />Yakın Doğu Bulvarı Lefkoşa, KKTC
+                  </p>
+                  <h5>Call Us</h5>
+                  <p>1 (234) 567-891 <br />1 (234) 987-654</p>
+                  <h5>Opening Hours</h5>
+                  <p>
+                    Monday-Friday …. 10 am – 8 pm<br />Saturday, Sunday ... 10
+                    am – 11 pm
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3259.1861814858557!2d33.32381027563509!3d35.22673507273741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14de111433eedaad%3A0xb704548b1127a239!2sNear%20East%20University!5e0!3m2!1sen!2snl!4v1701184893072!5m2!1sen!2snl"
+              width="290"
+              height="383"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+
+    <!--=========== AUTHOR =================-->
+
+    <div class="container">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col">
+          <figure>
+            <blockquote class="blockquote">
+              <p>JUNIOR KABONGO KANYINDA</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              Quality Assurance leader -<cite title="Source Title">
+                Group 1</cite
+              >
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

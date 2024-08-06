@@ -1,0 +1,221 @@
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+section{
+  padding: 60px 0;
+}
+#navbar ul li a{
+  color: #000000;
+  text-shadow: 0px 0px 0px rgb(181, 20, 58);
+  font-size: 16px;
+}
+#navbar ul li{
+  margin-left: 50px;
+}
+
+h1{
+  color: #ffb6c1;
+  font-size: 100px;
+  text-shadow: 5px 5px 2px rgb(181, 20, 58);
+  font-weight:bold;
+}
+h2{
+  color:  #000000;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+  margin-top: 140px;
+  font-family: "Great Vibes", cursive;
+}
+h3{
+  color:  #000000;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+}
+h5{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+}
+h4{
+  color: #000000;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+}
+
+.col1{
+  flex-basis: 50%;  
+}
+.col2{
+  flex-basis: 50%;
+}
+.btn1{
+  width: 180px;
+  color: #000;
+  font-size: 15px;
+  padding: 12px 0;
+  background: #ffb6c1;
+  border: 0;
+  border-radius: 100px;
+  outline: none;
+  margin-top: 5px;
+}
+.btn2{
+  width: 180px;
+  color: #fff;
+  font-size: 15px;
+  padding: 12px 0;
+  background: #ffb6c1;
+  border: 0;
+  border-radius: 100px;
+  outline: none;
+  margin-top: 5px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#btn3{
+  background-color: #fff0f5;
+
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #ffb6c1;
+    border: 0;
+    border-radius: 100px;
+    outline: none;
+    margin-top: 30px;
+}
+.card{
+    width: 250px;
+    height: 250px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px; 
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card a{
+    outline: none;
+    text-decoration: none;
+
+}
+.card1{
+    background-image: url(1.jpeg);
+    border-style: inset;
+    border-color: #ffb6c1;
+    border-width: 5px;
+}
+.card2{
+    background-image: url(6.jpeg);
+    border-right-style: outset;
+    border-top-style: inset;
+    border-color: #ffb6c1;
+    border-width: 5px;
+}
+.card3{
+    background-image: url(9.jpeg);
+    border-left-style: inset;
+    border-bottom-style: outset;
+    border-color: #ffb6c1;
+    border-width: 5px;
+}
+.card4{
+    background-image: url(10.jpeg);
+    border-right-style: outset;
+    border-bottom-style: outset;
+    border-color: #ffb6c1;
+    border-width: 5px;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.card p{
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+}
+.p1{
+  margin-top: 25px;
+    color:#000000;
+    font-size: 16px;
+    line-height: 25px;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+}
+.accordion-button{
+  color: #000000;
+}
+#chapter-1,  #chapter-2, #chapter-3,  #chapter-4,  #chapter-5, #chapter-6, #heading-1{
+  color: #000000;
+  background-color: #fff0f5;
+}
+.img3{
+  margin-bottom: 2px;
+  width: 430px;
+  height: 430px;
+  border-radius: 5%;
+  border-color: #ffb6c1;
+  border-width: 5px;
+  border-style: inset;
+}
+#intro{
+  padding-top: 0%;
+}
+.card5{
+  background-image: url(sbcake.jpeg);
+ 
+}
+.card6{
+  background-image: url(pinkcookies.jpeg);
+ 
+}
+.card7{
+  background-image: url(rvcake.jpeg);
+}
+.card8{
+  background-image: url(customized\ cake.jpeg);
+}
+.card9{
+  background-image: url(donut...jpeg);
+}
+.card10{
+  background-image: url(icecream...jpeg);
+}
+.card11{
+  background-image: url(brownie...jpeg);  
+}
+.card12{
+  background-image: url(cupcake...jpeg);
+}
+.container-lg{
+  margin-top: 46px;
+}
+header{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff0f5;
+  height: 200px;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+.offcanvas-header{
+  margin-top: 50px;
+}
+.bg{
+  background-color:#fff0f5;
+  background-size: cover;
+  background-position-x: center;
+}
+#sidebar{
+  background-color: #fff0f5;
+}
